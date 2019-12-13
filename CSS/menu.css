@@ -1,0 +1,22 @@
+.lunch_menu {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.lunch_menu td, #lunch_menu th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.lunch_menu tr:nth-child(even){background-color: #f2f2f2;}
+
+.lunch_menu tr:hover {background-color: #ddd;}
+
+.lunch_menu th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #091748;
+  color: white;
+}
