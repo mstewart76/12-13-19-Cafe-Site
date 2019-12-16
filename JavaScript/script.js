@@ -2,9 +2,9 @@ $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {
   $('#slideshow > div:first')
-    .fadeOut(1000)
+    //.fadeOut(1000)
     .next()
-    .fadeIn(1000)
+    //.fadeIn(1000)
     .end()
     .appendTo('#slideshow');
 }, 10000);
@@ -19,7 +19,7 @@ $(function(){
     SetCarouselHeight();
     $(window).resize(function(){
         SetCarouselHeight();
-    }); 
+    });
 });
 
 
@@ -48,7 +48,7 @@ function myFunctionEntres(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("entres");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -82,7 +82,7 @@ function myFunctionSalads(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("salads");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -118,7 +118,7 @@ function myFunctionSides(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("sides");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -153,7 +153,7 @@ function myFunctionSandwiches(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("sandwiches");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -186,7 +186,7 @@ function myFunctionWraps(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Flavor</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("wraps");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("flavor")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -219,7 +219,7 @@ function myFunctionCheese(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("cheese");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -229,7 +229,7 @@ function myFunctionCheese(xml) {
   document.getElementById("cheese").innerHTML = table;
 }
 
-//breakfast menu 
+//breakfast menu
 
 function displayPlatters() {
   var x = document.getElementById("platters");
@@ -254,7 +254,7 @@ function myFunctionPlatters(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("platters");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -288,7 +288,7 @@ function myFunctionCheese(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
   var x = xmlDoc.getElementsByTagName("cheese");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
