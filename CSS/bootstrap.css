@@ -1511,6 +1511,15 @@ pre code {
   }
 }
 
+.table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #091748;
+  color: white; 
+
+}
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -1545,9 +1554,14 @@ pre code {
 .table-bordered {
   border-left: solid white 40px;
   border-right: solid white 40px;
-  /* margin-left: 40px; 
-  margin-right: 40px;   */
+  margin-left: 40px; 
+  margin-right: 40px; 
   border-collapse: collapse;
+  width: 100%;
+}
+
+.table tb{
+  width:
 }
 
 .table-legend {

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <entres>
+    <name>Chicken Tenders</name>
+    <price>$5.50 ($3.00 without sides)</price>
+  </entres>
+  <entres>
+    <name>Chicken Quesadilla</name>
+    <price>$5.50</price>
+  </entres>
+  <entres>
+    <name>Buffalo, BBQ, or Dry Rub Chicken Wings (6)</name>
+    <price>$6.25</price>
+  </entres>
+  <entres>
+    <name>Personal Pizza *SPECIAL</name>
+    <price>$5.75 ($7 with side)</price>
+  </entres>
+  <entres>
+    <name>Shrimp or Steak Rice</name>
+    <price>$6</price>
+  </entres>
+  <entres>
+    <name>Lasagna or Spaghetti  (includes side salad and garlic bread)*SPECIAL</name>
+    <price>$7</price>
+  </entres>
+  <entres>
+    <name>Chicken Parmesa (includes side salad and garlic bread) *SPECAIL</name>
+    <price>$7</price>
+  </entres>
+  <entres>
+    <name>Gyro (Chicken, Shrimp, or Steak</name>
+    <price>$6.75</price>
+  </entres>
+  <entres>
+    <name>Steak N Cheese or Chicken philly</name>
+    <price>$6.25</price>
+  </entres>
+
+  <salads>
+    <name>Fried or Grilled Chicken Salad</name>
+    <price>$5.50</price>
+  </salads>
+  <salads>
+    <name>Chef's Salad</name>
+    <price>$5.50</price>
+  </salads>
+  <salads>
+    <name>Chicken Cesar Salad</name>
+    <price>$5.50</price>
+  </salads>
+  <salads>
+    <name>Buffalo Chicken Salad</name>
+    <price>$5.50</price>
+  </salads>
+  <salads>
+    <name>Beef or Chicken taco Salad</name>
+    <price>$6.25</price>
+  </salads>
+
+  <sides>
+    <name>French Fries</name>
+    <price>$2.25</price>
+  </sides>
+  <sides>
+    <name>Curly Fries</name>
+    <price>$2.75</price>
+  </sides>
+  <sides>
+    <name>Mac n Cheese *SPECIAL</name>
+    <price>$2.25</price>
+  </sides>
+  <sides>
+    <name>Tater Tots</name>
+    <price>$2.50</price>
+  </sides>
+  <sides>
+    <name>Pasta Salad *SPECIAL</name>
+    <price>$2.75</price>
+  </sides>
+  <sides>
+    <name>Rice/Dirty Rice *SPECIAL</name>
+    <price>$2.25</price>
+  </sides>
+  <sides>
+    <name>Side Salad</name>
+    <price>$2.25</price>
+  </sides>
+  <sides>
+    <name>Cabbage *SPECIAL</name>
+    <price>$2.25</price>
+  </sides>
+
+  <wraps>
+   <flavor>BBQ</flavor>
+   <price>$6.25</price>
+  </wraps>
+  <wraps>
+   <flavor>Ranch</flavor>
+   <price>$6.25</price>
+  </wraps>
+  <wraps>
+   <flavor>Honey Mustard</flavor>
+   <price>$6.25</price>
+  </wraps>
+  <wraps>
+   <flavor>Buffalo</flavor>
+   <price>$6.25</price>
+  </wraps>
+  <wraps>
+   <flavor>Caesar</flavor>
+   <price>$6.25</price>
+  </wraps>
+
+  <sandwiches>
+    <name>Fried or Grilled Chicken Sub</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Frieds or Grilled Chicked Sandwich</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Turkey or Ham Sub</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Turkey or Ham Sandwich</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Club Sandwich</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Hamburger or Cheeseburger</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>BBQ Sandwich (Pork)</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Italian Sub</name>
+    <price>$4</price>
+  </sandwiches>
+  <sandwiches>
+    <name>BLT Sandwich</name>
+    <price>$3</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Grilled Cheese</name>
+    <price>$2</price>
+  </sandwiches>
+  <sandwiches>
+    <name>Fish Sandwich (Cod) *SPECIAL</name>
+    <price>$4</price>
+  </sandwiches>
+  
+ <cheese>
+    <name>Loaded Cheese Fries</name>
+    <price>$3.50</price>
+ </cheese>
+ <cheese>
+    <name>add Bacon</name>
+    <price>$.50</price>
+ </cheese>
+ <cheese>
+    <name>add Chicken or Steak</name>
+    <price>$2.00</price>
+ </cheese>
+
+  
+</menu>

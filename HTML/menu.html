@@ -6,11 +6,12 @@
       <title>Michael and Son's Cafe - Lunch Menu</title>
       <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
       <link href="../CSS/bootstrap.css" rel="stylesheet" type="text/css"/>
-      <link href="../CSS/menu.style.css" type = "test/css"/>
+      <link href="../CSS/menu.css" type = "text/css"/>
       <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="../JavaScript/script.js"></script>
     </head>
     <body>
 
@@ -45,8 +46,30 @@
         </nav>
       </div>
 
+      <button class="button" type="button" onclick="loadentreXMLDoc(); displayEntres();">Entres</button>
+      <br><br>
+      <table id="entres" class="table table-bordered lmenu"></table>
 
-      <div class="menu">
+      <button class="button" type="button" onclick="loadsaladXMLDoc(); displaySalads();">Salads</button>
+      <br><br>
+      <table id="salads" class="table"></table>
+
+      <button class="button" type="button" onclick="loadsideXMLDoc(); displaySides();">Sides</button>
+      <br><br>
+      <table id="sides" class="table"></table>
+
+      <button class="button" type="button" onclick="loadsandwichXMLDoc(); displaySandwiches();">Sandwiches</button>
+      <br><br>
+      <table id="sandwiches" class="table"></table>
+
+      <button class="button" type="button" onclick="loadwrapXMLDoc(); displayWraps();">Wraps</button>
+      <br><br>
+      <table id="wraps" class="table"></table>
+
+      <button class="button" type="button" onclick="loadcheeseXMLDoc(); displayCheese();">Loaded Cheese Fries</button>
+      <br><br>
+      <table id="cheese" class="table"></table>
+      <!--<div class="menu">
         <h1>Café Lunch Menu</h1>
         <h3>Cafeteria serving from 8:30AM - 3:30PM</h3>
       </div>
@@ -104,6 +127,7 @@
          <footer class="title">Contacts</footer>
          <footer>Email: tempemail@temp.email <br> Phone number: (000)-0000-000</footer>
       </div>
+      -->
 
     </body>
 </html>

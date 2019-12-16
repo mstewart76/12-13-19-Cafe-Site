@@ -45,7 +45,7 @@
       </nav>
     </div>
 
-    <div id="menu" class="menu">
+    <!--<div id="menu" class="menu">
       <h1>Café Breakfast Menu</h1>
       <h3>BIG BREAKFAST: 2 pancakes or 2 french toast with 2 sides ($6)</h3>
     </div>
@@ -155,7 +155,23 @@
         </tr>
       </table>
 
-    <p id="SPECIAL">*SPECIAL (means not on the menu everyday) Thanks!<p>
+    <p id="SPECIAL">*SPECIAL (means not on the menu everyday) Thanks!<p>-->
+
+       <button class="button" type="button" onclick="loadplatterXMLDoc(); displayPlatters();">Breakfast Platters</button>
+      <br><br>
+      <table id="platters" class="table table-bordered menu "></table>
+
+      <button class="button" type="button" onclick="loadbiscuitXMLDoc(); displayBiscuits();">Biscuits, Toast, and Texas Toast</button>
+      <br><br>
+      <table id="biscuits" class="table"></table>
+
+      <button class="button" type="button" onclick="loadsideXMLDoc(); displaySides();">Sides</button>
+      <br><br>
+      <table id="sides" class="table"></table>
+
+      <h3>Coffe is $1</h3>
+      <h3>Cookies are $1.75</h3>
+
 
     <div class="footer">
        <footer class="title">Contacts</footer>
