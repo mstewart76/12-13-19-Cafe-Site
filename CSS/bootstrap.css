@@ -278,7 +278,6 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  padding: 0;
   border-style: none;
 }
 
@@ -1535,6 +1534,7 @@ pre code {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
+  width: 100%;
 }
 
 .table thead th {
@@ -1554,14 +1554,12 @@ pre code {
 .table-bordered {
   border-left: solid white 40px;
   border-right: solid white 40px;
-  margin-left: 40px; 
-  margin-right: 40px; 
   border-collapse: collapse;
   width: 100%;
 }
 
-.table tb{
-  width:
+.tr{
+  width:100%
 }
 
 .table-legend {
@@ -10143,5 +10141,10 @@ border-image-width: 1;
  menu tr{
   color: white;
   background-color: #0056b3
+}
+
+.custom-padding{
+  padding-right: 100px;
+  padding-left: 100px;
 }
 }
