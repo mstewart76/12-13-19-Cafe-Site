@@ -31,11 +31,11 @@
   padding: 8px;
   width: 100%;
 }
-
+/*
 .lmenu tr:nth-child(even){background-color: #f2f2f2;}
 
 .lmenu tr:hover {background-color: #ddd;}
-
+*/
 .lmenu th {
   padding-top: 12px;
   padding-bottom: 12px;
