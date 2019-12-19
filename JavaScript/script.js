@@ -265,29 +265,29 @@ function myFunctionPlatters(xml) {
 }
 
 
-function displayBiscuits() {
-  var x = document.getElementById("cheese");
+function displayToasts() {
+  var x = document.getElementById("toast");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
   }
 }
-function loadcheeseXMLDoc() {
+function loadtoastXMLDoc() {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      myFunctionCheese(this);
+      myFunctionToasts(this);
     }
   };
-  xmlhttp.open("GET", "../lunch.xml", true);
+  xmlhttp.open("GET", "../breakfast.xml", true);
   xmlhttp.send();
 }
-function myFunctionCheese(xml) {
+function myFunctionToasts(xml) {
   var i;
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Food</th><th>Price</th></tr>";
-  var x = xmlDoc.getElementsByTagName("cheese");
+  var x = xmlDoc.getElementsByTagName("toast");
   for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
@@ -295,5 +295,39 @@ function myFunctionCheese(xml) {
     x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
-  document.getElementById("cheese").innerHTML = table;
+  document.getElementById("toast").innerHTML = table;
+}
+
+
+function displayBsides() {
+  var x = document.getElementById("bsides");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function loadbsidesXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunctionBsides(this);
+    }
+  };
+  xmlhttp.open("GET", "../breakfast.xml", true);
+  xmlhttp.send();
+}
+function myFunctionBsides(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Food</th><th>Price</th></tr>";
+  var x = xmlDoc.getElementsByTagName("sides");
+  for (i = 0; i <x.length; i++) {
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("bsides").innerHTML = table;
 }
