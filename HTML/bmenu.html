@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="..//JavaScript//script.js"></script>
+    <script src="../JavaScript/script.js"></script>
   </head>
   <body>
 
@@ -157,22 +157,24 @@
       </table>
 
     <p id="SPECIAL">*SPECIAL (means not on the menu everyday) Thanks!<p>-->
+<div class="container">
 
        <button class="button" type="button" onclick="loadplatterXMLDoc(); displayPlatters();">Breakfast Platters</button>
       <br><br>
-      <table id="platters" class="table table-bordered menu"></table>
+      <table id= "platters" class="table table-bordered lmenu"></table>
 
       <button class="button" type="button" onclick="loadtoastXMLDoc(); displayToasts();">Biscuits, Toast, and Texas Toast</button>
       <br><br>
-      <table id="toast" class="table table-bordered menu"></table>
+      <table id="toast" class="table table-bordered lmenu"></table>
 
       <button class="button" type="button" onclick="loadbsidesXMLDoc(); displayBsides();">Sides</button>
       <br><br>
-      <table id="bsides" class="table table-bordered menu"></table>
+      <table id="bsides" class="table table-bordered lmenu"></table>
 
       <h3>Coffee is $1</h3>
       <h3>Cookies are $1.75</h3>
-
+      
+</div>
 
     <div class="footer">
        <footer class="title">Contacts</footer>

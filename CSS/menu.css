@@ -1,4 +1,4 @@
-/*.lunch_menu {
+ .lunch_menu {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -8,18 +8,18 @@
   border: 1px solid #ddd;
   padding: 8px;
 }
-
+/*us:ofiD FhwFB
 .lunch_menu tr:nth-child(even){background-color: #f2f2f2;}
 
 .lunch_menu tr:hover {background-color: #ddd;}
-
+*/
 .lunch_menu th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   background-color: #091748;
   color: white;
-}*/
+}
 .lmenu {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -31,11 +31,10 @@
   padding: 8px;
   width: 100%;
 }
-
+/*
 .lmenu tr:nth-child(even){background-color: #f2f2f2;}
-
 .lmenu tr:hover {background-color: #ddd;}
-
+*/
 .lmenu th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -50,5 +49,6 @@
 }
 .button:hover{
   background:#0d3f82;
+  border-color: transparent; 
   color:white;
 }
