@@ -185,11 +185,12 @@ border-right-width: 40px;
 .button {
   padding: 10px;
   width: 100%;
-  
+
 }
 
 .goodbutton{
  padding: 3%;
 }
-
-
+.iframe{
+  align: center;
+}

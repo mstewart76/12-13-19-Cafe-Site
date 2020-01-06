@@ -231,7 +231,7 @@ button {
   border-width: 1px;
   border-color: black;
   background: transparent;
-  
+
 }
 
 button:focus {
@@ -1519,7 +1519,7 @@ pre code {
   padding-bottom: 12px;
   text-align: left;
   background-color: #091748;
-  color: white; 
+  color: white;
 
 }
 
@@ -1530,7 +1530,7 @@ pre code {
 }
 
 .thead {
-  color: purple !important; 
+  color: purple !important;
 }
 
 .table th,
@@ -6961,7 +6961,9 @@ button.bg-dark:focus {
   display: block;
   content: "";
 }
-
+.iframe{
+  align: center;
+}
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
@@ -10150,5 +10152,12 @@ border-image-width: 1;
 .custom-padding{
   padding-right: 100px;
   padding-left: 100px;
+}
+
+.centered{
+  horizontal-align: center;
+}
+.content{
+  text-align: center;
 }
 }
