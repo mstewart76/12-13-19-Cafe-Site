@@ -191,6 +191,6 @@ border-right-width: 40px;
 .goodbutton{
  padding: 3%;
 }
-.iframe{
-  align: center;
+.center{
+  text-align: center;
 }
