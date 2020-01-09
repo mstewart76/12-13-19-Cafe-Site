@@ -29,7 +29,7 @@
 .lmenu td, .lmenu th {
   border: 1px solid #ddd;
   padding: 8px;
-  width: 65%;
+  width: 100%;
 }
 /*
 .lmenu tr:nth-child(even){background-color: #f2f2f2;}
