@@ -1,7 +1,7 @@
  .lunch_menu {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 10%;
 }
 
 .lunch_menu td, #lunch_menu th {
@@ -20,6 +20,15 @@
   background-color: #091748;
   color: white;
 }
+
+.lmenu td{
+  text-align: left;
+  border: 1px solid #ddd;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  overflow-x: visible;
+}
 .lmenu {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -28,8 +37,9 @@
 
 .lmenu td, .lmenu th {
   border: 1px solid #ddd;
-  padding: 8px;
-  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 10%;
 }
 /*
 .lmenu tr:nth-child(even){background-color: #f2f2f2;}
