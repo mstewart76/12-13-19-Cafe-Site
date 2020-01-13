@@ -62,3 +62,12 @@
   border-color: transparent;
   color:white;
 }
+
+.ntitle{
+  text-align: center;
+  font-size: 3rem;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1.5rem;
+}
