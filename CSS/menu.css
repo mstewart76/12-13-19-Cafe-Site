@@ -57,6 +57,19 @@
   padding: 2.5%;
   outline: none;
 }
+
+.screaming{
+  background-size: 90%;
+  background-position-x: center;
+  background-position-y: center;
+  background-blend-mode: multiply;
+}
+.button:hover mark{
+  background:#0d3f82;
+  border-color: transparent;
+  color:white;
+}
+
 .button:hover{
   background:#0d3f82;
   border-color: transparent;
@@ -66,8 +79,38 @@
 .ntitle{
   text-align: center;
   font-size: 3rem;
+  margin: auto;
+  margin-bottom: 0px;
 }
 .subtitle{
     text-align: center;
     font-size: 1.5rem;
+    margin: auto;
+    margin-top: 0px;
+}
+
+mark{
+background-color: #f3f1ebba
+}
+#sandwich{
+    background-image: url(../images/sandwich_mega_compressed.jpg);
+    background-size: 90%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.headerstyle{
+  position: fixed;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  top: 45px;
+  background: antiquewhite;
+}
+.ree{
+  position: absolute;
+  width: 100%;
+  top: 57%;
+  padding-top: 2.5%;
+  background: white;
 }

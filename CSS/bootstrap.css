@@ -555,6 +555,7 @@ pre code {
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
+  position: static;
 }
 
 @media (min-width: 576px) {
@@ -7830,9 +7831,10 @@ button.bg-dark:focus {
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1020;
+    width: 100%;
   }
 
   .sticky-bottom {
