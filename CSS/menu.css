@@ -114,3 +114,14 @@ background-color: #f3f1ebba
   padding-top: 2.5%;
   background: white;
 }
+.footerfix{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 55px;
+  flex-direction: column;
+  height: calc(100% - 55px);
+}
+#form{
+  margin: auto;
+}
