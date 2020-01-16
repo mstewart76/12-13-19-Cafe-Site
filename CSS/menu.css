@@ -106,6 +106,13 @@ background-color: #f3f1ebba
   top:  55px;
   background: antiquewhite !important;
 }
+
+@media (max-width: 768px) {
+    .headerstyle {
+        position: absolute !important;
+    }
+}
+
 .ree{
   position: absolute;
   width: 100%;
