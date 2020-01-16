@@ -195,3 +195,6 @@ border-right-width: 40px;
   padding-top: 2%;
   text-align: center;
 }
+body{
+  font-family: "Roboto",helvetica,arial sans-serif;
+}
