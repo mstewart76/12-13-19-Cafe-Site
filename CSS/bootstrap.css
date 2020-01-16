@@ -6256,8 +6256,8 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-right: 50px;
-  padding-left: 50px;
+  /*padding-right: 50px;
+  padding-left: 50px; */
 }
 
 .carousel-inner::after {
