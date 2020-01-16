@@ -127,6 +127,13 @@ background-color: #f3f1ebba
   top: 45px;
   background: antiquewhite;
 }
+
+@media (max-width: 768px) {
+    .headerstyle {
+        position: absolute !important;
+    }
+}
+
 .ree{
   position: absolute;
   width: 100%;
