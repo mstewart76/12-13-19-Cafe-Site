@@ -2450,15 +2450,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: black;
+  background-color: rgb(228, 228, 228);
+  border-color: transparent;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #0e3a8f;
+  border-color: transparent;
 }
 
 .btn-primary:focus, .btn-primary.focus {
