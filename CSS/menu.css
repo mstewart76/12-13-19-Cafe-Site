@@ -111,6 +111,9 @@ background-color: #f3f1ebba
     .headerstyle {
         position: absolute !important;
     }
+    .navbar-toggler{
+      line-height: 5;
+    }
 }
 
 .ree{
