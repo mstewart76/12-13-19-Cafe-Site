@@ -584,8 +584,6 @@ pre code {
 */
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -6264,8 +6262,7 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-top: 70px;
 }
 
 .carousel-inner::after {
@@ -6408,7 +6405,6 @@ a.close.disabled {
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-left: 0;
   margin-right: 15%;
   margin-left: 15%;
   list-style: none;
