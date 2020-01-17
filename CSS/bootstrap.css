@@ -4208,6 +4208,14 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+.navlogo{
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
