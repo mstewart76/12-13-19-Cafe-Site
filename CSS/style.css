@@ -197,3 +197,9 @@ border-right-width: 40px;
 body{
   font-family: "Roboto",helvetica,arial sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+  #homecalendar{
+    display: none;
+  }
+}
