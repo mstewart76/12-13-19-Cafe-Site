@@ -25,13 +25,14 @@
     <price>$4.75</price>
   </platters>
   <platters>
-    <name>Bologna Egg and Cheese Sandwich w/ Home Fries *SPECIAL</name>
-    <price>$5.00</price>
-  </platters>
-  <platters>
     <name>Big Breakfast (Pancakes(2) or French Toast(2) w/ 2 sides</name>
     <price>$6</price>
   </platters>
+  <platters>
+    <name>Bologna Egg and Cheese Sandwich w/ Home Fries *SPECIAL</name>
+    <price>$5.00</price>
+  </platters>
+
 
   <sides>
     <name>Bacon</name>
@@ -43,10 +44,6 @@
   </sides>
   <sides>
     <name>Ham</name>
-    <price>$1</price>
-  </sides>
-  <sides>
-    <name>Bologna *SPECIAL</name>
     <price>$1</price>
   </sides>
   <sides>
@@ -74,6 +71,10 @@
     <name>Pancakes(2) or French Toast(2)</name>
     <price>$4</price>
   </toast>
+  <sides>
+    <name>Bologna *SPECIAL</name>
+    <price>$1</price>
+  </sides>
 
 
 </menu>
