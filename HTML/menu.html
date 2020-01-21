@@ -14,82 +14,79 @@
       <script src="../JavaScript/script.js"></script>
     </head>
     <body>
-    <!-- this is the navigation bar.-->
-    <div class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="../index.html">
-            <img class="navlogo" src="../images/logo2.svg">
-          </a>
+      <!-- this is the navigation bar.-->
+      <div class="sticky-top">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">
+              <img class="navlogo" src="../images/logo2.svg">
+            </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Home<span class="sr-only"></span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menus</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="bmenu.html">Breakfast Menu</a>
-                  <a class="dropdown-item" href="menu.html">Lunch Menu (current)</a>
-                </div>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="order.html">Order<span class="sr-only"></span></a>
-              </li>
-            </ul>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menus</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="bmenu.html">Breakfast Menu</a>
+                    <a class="dropdown-item" href="menu.html">Lunch Menu (current)</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="order.html">Order<span class="sr-only"></span></a>
+                </li>
+              </ul>
+            </div>
 
-        </nav>
-    </div>
-    <br>
+          </nav>
+      </div>
+      <br>
 
+     <!-- this is the menu header-->
+      <div class="headerstyle">
+        <p class="ntitle">Lunch Menu</p>
+        <p class="subtitle">Specials change daily</p>
+      </div>
 
-          <div class="headerstyle">
-            <p class="ntitle">Lunch Menu</p>
-            <p class="subtitle">Specials change daily</p>
-          </div>
+      <!-- this is the menu contents-->
+      <div class="menu-container">
+        <div class="container">
+          <button class="button" type="button" onclick="loadentreXMLDoc(); displayEntres();">Entrees</button>
+          <br><br>
+          <table id="entres" class="table table-bordered lmenu"></table>
 
-          <!-- this is the current menu-->
-          <div class="ree">
-          <div class="container">
-              <button class="button" type="button" onclick="loadentreXMLDoc(); displayEntres();">Entrees</button>
-              <br><br>
-              <table id="entres" class="table table-bordered lmenu"></table>
+          <button class="button" type="button" onclick="loadsaladXMLDoc(); displaySalads();">Salads</button>
+          <br><br>
+          <table id="salads" class="table table-bordered lmenu"></table>
 
-              <button class="button" type="button" onclick="loadsaladXMLDoc(); displaySalads();">Salads</button>
-              <br><br>
-              <table id="salads" class="table table-bordered lmenu"></table>
+          <button class="button" type="button" onclick="loadsideXMLDoc(); displaySides();">Sides</button>
+          <br><br>
+          <table id="sides" class="table table-bordered lmenu"></table>
 
-              <button class="button" type="button" onclick="loadsideXMLDoc(); displaySides();">Sides</button>
-              <br><br>
-              <table id="sides" class="table table-bordered lmenu"></table>
+          <button class="button" type="button" onclick="loadsandwichXMLDoc(); displaySandwiches();" img src="C:\Users\Matthew Stewart\Desktop\Noah Clone\12-13-19-Cafe-Site\images\sandwich mega compressed.jpg">Sandwiches</button>
+          <br><br>
+          <table id="sandwiches" class="table table-bordered lmenu"></table>
 
-              <button class="button" type="button" onclick="loadsandwichXMLDoc(); displaySandwiches();" img src="C:\Users\Matthew Stewart\Desktop\Noah Clone\12-13-19-Cafe-Site\images\sandwich mega compressed.jpg">Sandwiches</button>
-              <br><br>
-              <table id="sandwiches" class="table table-bordered lmenu"></table>
+          <button class="button" type="button" onclick="loadwrapXMLDoc(); displayWraps();">Wraps</button>
+          <br><br>
+          <table id="wraps" class="table table-bordered lmenu"></table>
 
-              <button class="button" type="button" onclick="loadwrapXMLDoc(); displayWraps();">Wraps</button>
-              <br><br>
-              <table id="wraps" class="table table-bordered lmenu"></table>
-
-              <button class="button" type="button" onclick="loadcheeseXMLDoc(); displayCheese();">Loaded Cheese Fries</button>
-              <br><br>
-              <table id="cheese" class="table table-bordered lmenu"></table>
-          </div>
-
-          <!-- this is the footer-->
-
-                <h3>M&S Employee discount taken at register ($1)</h3>
-
-          <div class="footer">
-            <footer class="title">Contacts</footer>
-            <footer>Email: michaelandsonscafe@gmail.com  <br> Phone number: (000)-0000-000</footer>
-          </div>
+          <button class="button" type="button" onclick="loadcheeseXMLDoc(); displayCheese();">Loaded Cheese Fries</button>
+          <br><br>
+          <table id="cheese" class="table table-bordered lmenu"></table>
         </div>
+        <h3>M&S Employee discount taken at register ($1)</h3>
 
+        <!-- this is the footer-->
+        <div class="footer">
+          <footer class="title">Contacts</footer>
+          <footer>Email: michaelandsonscafe@gmail.com  <br> Phone number: (000)-0000-000</footer>
+        </div>
+      </div>
     </body>
 </html>
