@@ -131,6 +131,9 @@ background-color: #f3f1ebba
   .carousel-inner{
     padding: 0;
   }
+  .w-100{
+    width: 100% !important;
+  }
 }
 .menu-container{
   position: absolute;
