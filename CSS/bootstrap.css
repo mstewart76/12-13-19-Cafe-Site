@@ -10121,32 +10121,10 @@ border-width: .2rem 0 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
-    perspective: 1000px;
-/*# sourceMappingURL=bootstrap.css.map */}
+    perspective: 1000px;}
 .navbar {
   background: none;
 }
-
-/*.table-bordered-menu{
-    border: 1px solid #dee2e6;
-    border-top-color: rgb(222, 226, 230);
-border-top-style: solid;
-border-top-width: 1px; border-right-color: rgb(222, 226, 230);
-border-right-style: solid;
-border-right-width: 1px;
-border-bottom-color: rgb(222, 226, 230);
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-left-color: rgb(222, 226, 230);
-border-left-style: solid;
-border-left-width: 1px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-}
-*/
 
  menu tr{
   color: white;
