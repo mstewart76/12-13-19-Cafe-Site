@@ -131,13 +131,8 @@ background-color: #f3f1ebba
   .carousel-inner{
     padding: 0;
   }
-<<<<<<< HEAD
-}*/
-.menu-container{
-=======
 }
-.ree{
->>>>>>> c26ab5cbe5b420c14f31c671c20fc50e9e1ae259
+.menu-container{
   position: absolute;
   width: 100%;
   top: calc(50% + 47px + 1%);
