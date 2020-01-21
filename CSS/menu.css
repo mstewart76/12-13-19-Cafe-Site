@@ -115,10 +115,23 @@ background-color: #f3f1ebba
 
 @media only screen and (max-width: 767px) {
   .navbar-toggler {
-    line-height: 5;
+    line-height: 3;
+  }
+  body {
+    line-height: 3;
   }
 }
 
+/*@media only screen and (max-width: 767px) {
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 100%;
+  }
+  .carousel-inner{
+    padding: 0;
+  }
+}*/
 .ree{
   position: absolute;
   width: 100%;
@@ -135,7 +148,6 @@ background-color: #f3f1ebba
   height: calc(100% - 55px);
 }
 #form{
-  margin: auto;
 }
 .menu{
   display: flex;
